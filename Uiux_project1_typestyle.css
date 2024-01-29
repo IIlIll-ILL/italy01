@@ -1,0 +1,40 @@
+.BodyParagraph {
+    width: 60%; /* Adjust this width as needed */
+    margin: none; /* This centers the div container */
+    padding: 10px; /* Optional: Adds some space inside the container */
+    p {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    
+}
+.BodyParagraph p {
+    word-wrap: break-word; /* Ensures long words do not overflow */
+}
+.Intro {
+    width: 60%; /* Adjust this width as needed */
+    margin: none; /* This centers the div container */
+    padding: 10px; /* Optional: Adds some space inside the container */
+}
+.Intro p {
+    word-wrap: break-word; /* Ensures long words do not overflow */
+}
+.Citation {
+    width: 100%; /* Adjust this width as needed */
+    margin: none; /* This centers the div container */
+    padding: 10px; /* Optional: Adds some space inside the container */
+    p {
+        font-size: 14px;
+        line-height: 5%;
+    }
+    
+}
+.image {
+    display: grid;
+    place-items: center; /* Centers the image both horizontally and vertically */
+}
+.Citation {
+    display: grid;
+    place-items: center; /* Centers the image both horizontally and vertically */
+}
+
