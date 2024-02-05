@@ -18,6 +18,14 @@ body {
     text-align: center;
     /*background-color: lightgray;*/
     /*border: 5px solid black;*/
+    margin-bottom: 30px;
+    background-color: rgb(47, 109, 75);
+    display: flex;
+    clear:both;
+    width:100%;
+    float: left;
+    text-align:center;
+    flex-direction: column;
   }
   
   .author {
@@ -30,6 +38,7 @@ body {
   
   .byline .separator {
     display: inline;
+    
   }
   
   figcaption {
@@ -43,11 +52,13 @@ body {
     margin: 0;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: rgb(26, 83, 52)
   }
   
   .byline {
     font-family: "Protest Strike";
     font-size: 1rem;
+    background-color: rgb(53, 141, 93)
   }
   
   h2 {
