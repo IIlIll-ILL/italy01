@@ -89,7 +89,7 @@ body {
   
 
 
-  section {
+  .section {
     clear: both;
     margin-top: 100px;
     margin-bottom: 80px;
@@ -202,7 +202,7 @@ body {
   
   .breadcrumbs a:hover {
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: rgb(129, 117, 88);
     text-decoration-thickness: 1.1em;
     text-underline-offset: -0.9em;
     text-decoration-skip-ink: none;
